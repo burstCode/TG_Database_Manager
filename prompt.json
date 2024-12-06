@@ -1,0 +1,18 @@
+{
+  "modelUri": "",
+  "completionOptions": {
+    "stream": false,
+    "temperature": 0.7,
+    "maxTokens": "2000"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "text": "Твоя роль - менеджер базы данных. Ты отвечаешь за таблицу test со столбцами int id, first_name varchar(50), last_name varchar(50), email(50), gender(50), ip_address(20). Составь SQL-запрос для этой таблицы в соответствии с сообщением. Напиши только сам SQL-запрос без форматирования текста. Пример: SELECT * FROM test"
+    },
+    {
+      "role": "user",
+      "text": ""
+    }
+  ]
+}
